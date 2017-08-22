@@ -1,0 +1,131 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 0;
+}
+.clearfix:after{
+	display:block;
+	content:"";
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix{
+	zoom: 1;
+}
+@media only screen and (min-width: 900px) {
+	/*pc端设计*/
+	.no-show{
+		display: none;
+	}
+	header{
+		width: 100%;
+		height: 660px;
+		margin: 0 auto;
+		background-image: linear-gradient(to top,#a5b4ed,#737fab);
+	}
+	nav{
+		width: 80%;
+		height: 60px;
+		padding: 0 10% 0 10%;
+		background: #fff;
+	}
+	nav img{
+		float: left;
+		height: 40px;
+		margin: 10px 50px 0 50px;
+	}
+	nav li{
+		float: left;
+		padding:0 25px 0 25px ;
+	}
+	nav ul div{
+		float: left;
+		margin: 0 25px 0 50px;
+	}
+	nav a{
+		line-height: 60px;
+		font-size: 14px;
+		color: #91A1DC;
+	}
+	nav li:hover{
+		background: #eee;
+	}
+	nav div{
+		float: right;
+		padding: 0 25px 0 25px;
+	}
+	nav div:hover{
+		background: #eee;
+	}
+	.logo{
+		width: 150px;
+		margin:70px auto 0 auto;
+		padding: 20px;
+		border-radius: 15px;
+		border: 1px #fff solid;
+	}
+	header .main div{
+		text-align: center;
+	}
+	header .main .text{
+		margin: 50px auto;
+		font-weight:100 ;
+	}
+	header .main .text p{
+		font-size: 30px;
+		color: #fff;
+	}
+	header .main .download{
+		width: 150px;
+		margin: 0 auto;
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px #fff solid;
+	}
+	header .main .download a{
+		font-size: 30px;
+		color: #fff;
+	}
+	header .main .download:hover{
+		background: #fff;
+	}
+	header .main .download:hover>a{
+		color: #91A1DC;
+	}
+	header .main i{
+		line-height: 48px;
+		font-size: 14px;
+		font-style: normal;
+		color: #445389;
+	}
+}
+@media only screen and (max-width: 900px) {
+	/*手机端设计*/
+	header{
+		width: 100%;
+		background-image: linear-gradient(to top,#a5b4ed,#737fab);
+	}
+	nav{
+		line-height: .6rem;
+		padding: 0 10% 0 10%;
+		background: #fff;
+	}
+	nav img{
+		height: .4rem;
+		margin-top:.1rem ;
+	}
+	nav li{
+		display: none;
+		line-height: .6rem;
+		padding:0 25px 0 25px ;
+	}
+	nav i{
+		float: right;
+		font-size: .18rem;
+		color: #000;
+	}
+}

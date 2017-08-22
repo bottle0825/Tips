@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tips 注册</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tools.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+	</head>
+	<body>
+		<header>
+			<!--<nav class="clearfix">
+				<a href="main.html" class="col-sm-2 col-xs-6"><img src="img/title_blue.png"/></a>
+				<ul class="list-inline col-sm-7 col-xs-12 no-phone">
+					<li class="col-sm-2"><a href="#">项目介绍</a></li>
+					<li class="col-sm-2"><a href="#">产品介绍</a></li>
+					<li class="col-sm-2"><a href="#">相关文档</a></li>
+					<li class="col-sm-2"><a href="#">拓展功能</a></li>
+					<li class="col-sm-2"><a href="#">关于我们</a></li>
+				</ul>
+				<ul class="list-inline col-sm-3 col-xs-6">
+					<li class="col-sm-6 col-xs-3 col-sm-offset-0 col-xs-offset-7"><a href="#">登录</a></li>
+					<li class="col-sm-6 col-xs-2 no-show"><span id="menubut" class="glyphicon glyphicon-menu-hamburger no-show" aria-hidden="true" onclick="Openmenu()"></span></li>
+				</ul>
+				<ul id="menushow" class="no-show no-phone hid">
+					<li class=""><a href="#">项目介绍</a></li>
+					<li class=""><a href="#">产品介绍</a></li>
+					<li class=""><a href="#">相关文档</a></li>
+					<li class=""><a href="#">拓展功能</a></li>
+					<li class=""><a href="#">关于我们</a></li>
+				</ul>
+			</nav>-->
+			<nav class="navbar " style="background-color: #fff;" role="navigation">
+			<div class="row col-sm-10 col-sm-offset-1" >
+				<div class="navbar-header">
+					<a href="main.html" class="navbar-brand">
+						<img src="img/title_blue.png" />
+					</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target = "#navbar">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav" >
+						<li class=""><a href="#">项目介绍</a></li>
+						<li class=""><a href="#">产品介绍</a></li>
+						<li class=""><a href="#">相关文档</a></li>
+						<li class=" dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								拓展功能<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">单词本</a></li>
+								<li><a href="#">随身账本</a></li>
+							</ul>
+						</li>
+						<li class="active"><a href="#">关于我们</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#" data-toggle="modal" data-target="#login">登录</a></li>
+					</ul>
+					<div class="modal" id="login">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+									<h4 class="modal-title">登录</h4>
+								</div>
+								<div class="modal-body clearfix">
+									<form action="" class="col-sm-10 col-sm-offset-1 form-horizontal">
+										<div class="form-group">
+											<label for="username">用户名：</label>
+											<div class="">
+												<input type="text" name="username" id="username" value="" placeholder="请输入用户名" class="form-control"/>
+											</div>
+										</div>
+										<div class="form-group">
+											<label for="password">密码：</label>
+											<div class="">
+												<input type="password" name="password" id="password" value="" placeholder="请输入密码" class="form-control"/>
+											</div>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button class="btn btn-danger" data-dismiss="modal">关闭</button>
+									<button class="btn btn-success">提交</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</nav>
+			<div class="main">
+				<h4 >一起使用Tips</h4>
+				<p>使用Tips，它会成为你生活中必不可少的一部分，注册成为众多Tips爱好者中的一员。</p>
+			</div>
+		</header>	
+		<section class="col-sm-10 col-sm-offset-1">
+			<fieldset id="">
+				<legend class="col-sm-10 col-sm-offset-1 ">注册</legend>
+				<form action="" method="post" class="form-horizontal col-sm-8 col-sm-offset-2">
+					<div class="form-group">
+						<label for="username" class="col-sm-2 control-label">用户名：</label>
+						<div class="col-sm-6">
+							<input type="text" name="username" id="username" value="" placeholder="请输入用户名" class="form-control"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="phone" class="col-sm-2 control-label">手机号：</label>
+						<div class="col-sm-6">
+							<input type="text" name="phone" id="phone" value="" placeholder="请输入手机号" class="form-control"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="checknum" class="col-sm-2 col-xs-12 control-label">验证码：</label>
+						<div class="col-sm-4 col-xs-8">
+							<input type="text" name="checknum" id="checknum" value="" placeholder="请输入验证码" class="form-control"/>
+						</div>
+						<button class="btn btn-info col-sm-2 col-xs-3">发生验证码</button>
+					</div>
+					<div class="form-group">
+						<label for="passward" class="col-sm-2 control-label">密码：</label>
+						<div class="col-sm-6">
+							<input type="passward" name="passward" id="passward" value="" placeholder="请输入密码" class="form-control"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="repassward" class="col-sm-2 control-label">确认密码：</label>
+						<div class="col-sm-6">
+							<input type="passward" name="repassward" id="repassward" value="" placeholder="请确认密码" class="form-control"/>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="sex" class="col-sm-2 control-label ">性别：</label>
+						<div class="col-sm-6">
+							<label for="boy" class="control-label"><input type="radio" name="sex" id="boy" value="" class="radio-inline" checked/>高富帅</label>
+							<label for="girl" class="control-label"><input type="radio" name="sex" id="girl" value="" class="radio-inline"/>白富美</label>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="birth" class="col-sm-2 control-label ">破蛋日：</label>
+						<div class="col-sm-2">
+							<select name="year" class="form-control">
+								<option value="">选择年份</option>
+							</select>
+						</div>
+						<div class="col-sm-2">
+							<select name="month" class="form-control">
+								<option value="">选择月份</option>
+							</select>
+						</div>
+						<div class="col-sm-2">
+							<select name="day" class="form-control">
+								<option value="">选择日期</option>
+							</select>
+						</div>
+					</div>
+					
+					<input type="submit" value="提交注册信息" class="btn btn-info col-sm-4 col-sm-offset-4 col-xs-12"/>
+				</form>
+				
+			</fieldset>
+		</section>
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

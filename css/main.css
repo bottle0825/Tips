@@ -1,0 +1,95 @@
+
+@media only screen and (min-width: 768px) {
+	/*pc端设计*/
+	.logo{
+		display: block;
+		width: 170px;
+		height: 118px;
+		margin:70px auto 0 auto;
+		padding: 20px;
+		border-radius: 15px;
+		border: 1px #fff solid;
+		background: url(../img/title.png) no-repeat 20px 20px;
+	}
+	header .main div{
+		text-align: center;
+	}
+	header .main .text{
+		margin: 50px auto;
+		font-weight:100 ;
+	}
+	header .main .text p{
+		font-size: 30px;
+		color: #fff;
+	}
+	header .main .download{
+		display: block;
+		width: 150px;
+		margin: 0 auto;
+		padding: 10px;
+		border-radius: 10px;
+		border: 1px #fff solid;
+		font-size: 30px;
+		color: #fff;
+		text-align: center;
+	}
+	header .main .download:hover{
+		text-decoration: none;
+	}
+	header .main .download:hover{
+		background: #fff;
+		color: #91A1DC;
+	}
+	header .main i{
+		line-height: 48px;
+		font-size: 14px;
+		font-style: normal;
+		color: #445389;
+	}
+	
+}
+
+@media only screen and (max-width: 768px) {
+	/*手机端设计*/
+	.logo {
+		display: block;
+		width: 170px;
+		height: 118px;
+		padding: .2rem;
+		margin:.7rem auto 0 auto;
+		border-radius: .15rem;
+		border: 1px #fff solid;
+		background: url(../img/title.png) no-repeat 20px 20px;
+	}
+	header .main div{
+		text-align: center;
+	}
+	header .main .text{
+		margin: .5rem auto 0 auto;
+		font-weight:100 ;
+	}
+	header .main .text p{
+		font-size: .3rem;
+		color: #fff;
+	}
+	header .main .download{
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+		padding: .1rem;
+		border-radius: .1rem;
+		border: 1px #fff solid;
+		font-size: .5rem;
+		color: #fff;
+		text-align: center;
+	}
+	header .main .download:hover{
+		text-decoration: none;
+	}
+	header .main i{
+		line-height: .48rem;
+		font-size: .14rem;
+		font-style: normal;
+		color: #445389;
+	}
+}
