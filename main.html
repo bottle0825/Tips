@@ -105,20 +105,30 @@
 			</div>
 		</nav>
 			<div class="main">
-				<div class="logo"></div>
-				<div class="text animated slideInLeft" >
+				<div class="logo wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s"></div>
+				<div class="text wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.5s">
 					<p>此刻，阳光正好，微风习习，不如打开Tips，写一首小诗</p>
 					<p>记录生活的点点滴滴</p>
 				</div>
-				<a href="#" class="download">下载 Tips</a>
-				<div>
+				<a href="#" class="download wow bounceIn" data-wow-duration="1s" data-wow-delay="3s">下载 Tips</a>
+				<div class="wow bounceIn" data-wow-duration="1s" data-wow-delay="3s">
 					<i>当前版本： v1.0.1 | 文档更新于：2017-08-12</i>
 				</div>
 			</div>
-		</header>
+		</header>	
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
 	<script src="js/wow.js" type="text/javascript" charset="utf-8"></script>
 	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript">
+		var wow = new WOW({
+		    boxClass: 'wow',
+		    animateClass: 'animated',
+		    offset: 0,
+		    mobile: true,
+		    live: true
+		});
+		wow.init();
+	</script>
 	</body>
 </html>
