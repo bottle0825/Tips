@@ -45,14 +45,14 @@
 	}
 	header{
 		width: 100%;
-		padding-bottom: .5rem;
+		padding: .5rem 0;
 		background-image: linear-gradient(to top,#a5b4ed,#737fab);
 	}
 	nav{
 		background: #FFF;
 	}
 	nav img{
-		height: 30px;
+		height: .3rem;
 		/*margin: .1rem .5rem 0 0;*/
 	}
 	nav span{
