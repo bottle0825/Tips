@@ -14,7 +14,10 @@
 	header .main p{
 		width: 600px;
 		font-size: 28px;
-		color: #445389;
+		color: #fff;
+	}
+	fieldset{
+		padding: 50px 0;
 	}
 	legend{
 		margin-top: 20px;
@@ -38,7 +41,7 @@
 	header .main p{
 		width: 5rem;
 		font-size: .2rem;
-		color: #445389;
+		color: #fff;
 	}
 	.buttontext{
 		font-size: .2rem;

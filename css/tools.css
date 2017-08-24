@@ -7,6 +7,12 @@
 	/*font-size: 0;*/
 	box-sizing: border-box;
 }
+.mar{
+	margin-top: 20px;
+}
+body{
+	background: #333;
+}
 @media only screen and (min-width: 768px) {
 	/*pc端设计*/
 	.no-show{
@@ -15,10 +21,12 @@
 	header{
 		width: 100%;
 		padding: 50px 0;
-		background-image: linear-gradient(to top,#a5b4ed,#737fab);
+		/*background-image: linear-gradient(to top,#a5b4ed,#737fab);*/
+		background: url(../img/bg1.jpg) no-repeat;
+		background-size: 100% 100%;
 	}
-	nav{
-		background: #FFF;
+	header .main{
+		font-weight:100 ;
 	}
 	nav img{
 		height: 30px;
@@ -47,7 +55,12 @@
 		width: 100%;
 		padding: .5rem 0;
 		margin-top: 30px;
-		background-image: linear-gradient(to top,#a5b4ed,#737fab);
+		/*background-image: linear-gradient(to top,#a5b4ed,#737fab);*/
+		background: url(../img/bg1.jpg) no-repeat;
+		background-size: auto 100%;
+	}
+	header .main{
+		font-weight:100 ;
 	}
 	nav{
 		background: #FFF;
@@ -58,7 +71,7 @@
 	}
 	nav span{
 		font-size: .3rem;
-		color: #91A1DC;
+		color: #fff;
 	}	
 	nav{
 		padding-right: 15px;

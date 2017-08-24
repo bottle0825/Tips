@@ -35,16 +35,16 @@
 	}
 	header .main .download:hover{
 		text-decoration: none;
+		color: #080808;
 	}
 	header .main .download:hover{
 		background: #fff;
-		color: #91A1DC;
 	}
 	header .main i{
 		line-height: 48px;
 		font-size: 14px;
 		font-style: normal;
-		color: #445389;
+		color: #fff;
 	}
 	
 }
@@ -90,6 +90,6 @@
 		line-height: .48rem;
 		font-size: .14rem;
 		font-style: normal;
-		color: #445389;
+		color: #fff;
 	}
 }

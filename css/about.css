@@ -1,4 +1,7 @@
 
+.content section{
+	background: #EFEFEF;
+}
 @media only screen and (min-width: 768px) {
 	/*pc端设计*/
 	.content img{
