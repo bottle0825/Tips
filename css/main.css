@@ -46,7 +46,9 @@
 		font-style: normal;
 		color: #fff;
 	}
-	
+	.bbw{
+		border-bottom: 1px solid #EFEFEF;
+	}
 }
 
 @media only screen and (max-width: 768px) {

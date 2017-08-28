@@ -1,81 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="UTF-8">
-		<title>Tips手账本</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
-		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
-		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
-		<link rel="stylesheet" type="text/css" href="css/main.css"/>
-		<link rel="stylesheet" type="text/css" href="css/tools.css"/>
-	</head>
-	<body>
-		<header>
-		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-			<div class="row col-sm-10 col-sm-offset-1" >
-				<div class="navbar-header">
-					<a href="#" class="navbar-brand">
-						<img src="img/title.png" />
-					</a>
-					<button class="navbar-toggle" data-toggle="collapse" data-target = "#navbar">
-						<span class="glyphicon glyphicon-menu-hamburger"></span>
-					</button>
-				</div>
-				<div class="collapse navbar-collapse" id="navbar">
-					<ul class="nav navbar-nav" >
-						<li class="active"><a href="#">项目介绍</a></li>
-						<li class=""><a href="#">产品介绍</a></li>
-						<li class=""><a href="#">相关文档</a></li>
-						<li class=" dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
-								拓展功能<span class="caret"></span>
-							</a>
-							<ul class="dropdown-menu">
-								<li><a href="#">单词本</a></li>
-								<li><a href="#">随身账本</a></li>
-							</ul>
-						</li>
-						<li class=""><a href="about.html">关于我们</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<li class=""><a href="#" data-toggle="modal" data-target="#login">登录</a></li>
-						<li class=""><a href="rsgister.html">注册</a></li>
-					</ul>
-				</div>
-				
+<head>
+	<meta charset="UTF-8">
+	<title>Tips手账本</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/tools.css"/>
+</head>
+<body>
+	<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+		<div class="row col-sm-10 col-sm-offset-1" >
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">
+					<img src="img/title.png" />
+				</a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target = "#navbar">
+					<span class="glyphicon glyphicon-menu-hamburger"></span>
+				</button>
 			</div>
-		</nav>
-		<div class="modal" id="login">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<button class="close" data-dismiss="modal">&times;</button>
-						<h4 class="modal-title">登录</h4>
-					</div>
-					<div class="modal-body clearfix">
-						<form action="" class="col-sm-10 col-sm-offset-1 form-horizontal">
-							<div class="form-group">
-								<label for="username">用户名：</label>
-								<div class="">
-									<input type="text" name="username" id="username" value="" placeholder="请输入用户名" class="form-control"/>
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="password">密码：</label>
-								<div class="">
-									<input type="password" name="password" id="password" value="" placeholder="请输入密码" class="form-control"/>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="modal-footer">
-						<button class="btn btn-danger" data-dismiss="modal">关闭</button>
-						<button class="btn btn-success">提交</button>
-					</div>
-				</div>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="nav navbar-nav" >
+					<li class="active"><a href="#">项目介绍</a></li>
+					<li class=""><a href="#">产品介绍</a></li>
+					<li class=""><a href="#">相关文档</a></li>
+					<li class=" dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							拓展功能<span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">单词本</a></li>
+							<li><a href="#">随身账本</a></li>
+						</ul>
+					</li>
+					<li class=""><a href="about.html">关于我们</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class=""><a href="rsgister.html">登录</a></li>
+				</ul>
 			</div>
+			
 		</div>
+	</nav>
+	<header class="clearfix">
 		<div class="main">
 			<div class="logo wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s"></div>
 			<div class="text wow slideInLeft" data-wow-duration="1s" data-wow-delay="1.5s">
@@ -87,19 +56,42 @@
 				<i>当前版本： v1.0.1 | 文档更新于：2017-08-12</i>
 			</div>
 		</div>
-	</header>	
-	<div class="clearfix">
-		<section class="row col-sm-10 col-sm-offset-1">
-			<h1></h1>
-		</section>
+	</header>
+	<div class="container marx">
+		<div class="mar pd bbw clearfix wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+			<div class="col-xs-8">
+				<h2 class="tw">开发环境</h2>
+				<p class="tw">Tips项目是一款基于Java语言的，使用AndroidStudio软件作为开发工具，并在安卓操作系统下供用户进行使用的手账工具软件。</p>
+			</div>
+			<div class="col-xs-4">
+				<img src="img/andriod.png" class="center-block"/>
+			</div>
+		</div>
+		<div class="mar pd bbw clearfix wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+			<div class="col-xs-8">
+				<h2 class="tw">web页面开发</h2>
+				<p class="tw">Tips项目的web页面开发使用bootstrap前端开发框架进行，立至于给用户最好的体验</p>
+			</div>
+			<div class="col-xs-4">
+				<img src="img/bootstrap.png" class="center-block"/>
+			</div>
+		</div>
+		<div class="mar pd bbw clearfix wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+			<div class="col-xs-8">
+				<h2 class="tw">技术社区支持</h2>
+				<p class="tw">Tips项目是一个完全开源的项目，通过使用github进行开源分享，目的在于希望让Tips不仅仅是一个个人或者团队的产品，能够变成一个集众人之力，开发的一个能让人生活变得更高质量的项目。</p>
+			</div>
+			<div class="col-xs-4">
+				<img src="img/github.png" class="center-block"/>
+			</div>
+		</div>
 	</div>
-	<footer class="clearfix">
+	<footer class="clearfix marx">
 		<div class="row col-sm-10 col-sm-offset-1">
 			<b>技术支持:</b><a href="https://github.com/buttle0825">github个人主页</a><a href="http://v3.bootcss.com">bootstrap中文网站</a>
 			<p>Special announcement: the site is set up by "buttle0825" and its team, and the final explanation is owned by the team.</p>
 			<p>特别声明：该网站由“buttle0825”及其团队搭建完成，最终解释权归该团队所有。</p>
 		</div>
-		
 	</footer>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
@@ -115,5 +107,5 @@
 		});
 		wow.init();
 	</script>
-	</body>
+</body>
 </html>
