@@ -44,28 +44,32 @@
 			</div>
 		</nav>
 		<div class="clearfix content">
-			<div class="col-sm-3 col-sm-offset-8 ">
-				<ul class="nav nav-tabs">
+			<div class="col-sm-7 col-sm-offset-1 ">
+				<h4 >一起使用Tips</h4>
+				<p>使用Tips，它会成为你生活中必不可少的一部分，注册成为众多Tips爱好者中的一员。</p>
+			</div>
+			<div class="col-sm-3">
+				<ul class="nav nav-tabs navbar-default nav-justified">
 					<li class="active"><a href="#login" class="btn " data-toggle="tab">登录</a></li>
 					<li class=""><a href="#register" class="btn " data-toggle="tab">注册</a></li>
 				</ul>
-				<div class="tab-content panel">
+				<div class="tab-content">
 					<!--登录-->
-					<div class="tab-pane active" id="login">
+					<div class="tab-pane active login" id="login">
 						<form action="" class="form-horizontal">
-							<div class="form-group">
-								<label for="username">用户名：</label>
+							<div class="form-group ">
+								<label for="username" class="control-label">用户名：</label>
 								<div class="">
 									<input type="text" name="username" id="username" value="" placeholder="请输入用户名" class="form-control"/>
 								</div>
 							</div>
 							<div class="form-group">
-								<label for="password">密码：</label>
+								<label for="password" class="control-label">密码：</label>
 								<div class="">
 									<input type="password" name="password" id="password" value="" placeholder="请输入密码" class="form-control"/>
 								</div>
 							</div>
-							<input type="submit" value="登录" class="btn btn-info btn-block"/>
+							<input type="submit" value="登录" class="btn btn-info btn-block sub"/>
 						</form>
 					</div>
 					<!--注册-->
@@ -83,7 +87,7 @@
 									<div class="col-xs-8">
 										<input type="text" name="checknum" id="checknum" value="" placeholder="请输入验证码" class="form-control"/>
 									</div>
-									<button class="btn btn-info col-xs-3">发送验证码</button>
+									<button class="btn btn-info col-xs-4">发送验证码</button>
 								</div>
 								
 							</div>

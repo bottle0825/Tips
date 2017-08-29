@@ -7,7 +7,7 @@
 	}
 	.content{
 		/*background: #fff;*/
-		background: rgba(255,255,255,0.5);
+		background: rgba(100,100,100,0.7);
 		margin: 200px 0;
 		padding: 10px;
 	}
@@ -15,9 +15,55 @@
 		padding: 20px;
 		background: #fff;
 	}
+	.content h4{
+		margin-top: 100px ;
+		font-size: 50px;
+		font-weight: 400;
+		color: #fff;
+	}
+	.content p{
+		width: 600px;
+		font-size: 28px;
+		color: #fff;
+	}
+	.login{
+		padding-top:50px ;
+		height: 380px;
+		background: #fff;
+	}
+	.login .sub{
+		margin-top: 50px;
+	}
+	.content form div,.content form label{
+		padding: 0 10px;
+	}
 }
 
 @media only screen and (max-width: 768px) {
 	/*手机端设计*/
-	
+	body{
+		background:url(../img/bg2.jpg)no-repeat;
+		background-size: auto 100%;
+	}
+	.content{
+		/*background: #fff;*/
+		background: rgba(100,100,100,0.7);
+		margin: 2rem 0;
+		padding: .1rem;
+	}
+	.content form{
+		padding: .2rem;
+		background: #fff;
+	}
+	.content h4{
+		margin-top: .5rem ;
+		font-size: .5rem;
+		font-weight: 400;
+		color: #fff;
+	}
+	.content p{
+		width: 6rem;
+		font-size: .28rem;
+		color: #fff;
+	}
 }
