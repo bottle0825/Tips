@@ -29,7 +29,12 @@
 	.login{
 		padding-top:50px ;
 		height: 380px;
-		background: #fff;
+	}
+	.register,.login{
+		background: rgba(255,255,255,0.7);
+	}
+	.content form{
+		background: rgba(255,255,255,0);
 	}
 	.login .sub{
 		margin-top: 50px;
