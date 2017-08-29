@@ -66,4 +66,7 @@
 		font-size: .28rem;
 		color: #fff;
 	}
+	.content form div,.content form label{
+		padding: 0 .1rem;
+	}
 }
