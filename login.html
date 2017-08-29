@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Tips 登录</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-theme.css"/>
+		<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"/>
+		<link rel="stylesheet" type="text/css" href="css/register.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tools.css"/>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+			<div class="row col-sm-10 col-sm-offset-1" >
+				<div class="navbar-header">
+					<a href="index.html" class="navbar-brand">
+						<img src="img/title.png" />
+					</a>
+					<button class="navbar-toggle" data-toggle="collapse" data-target = "#navbar">
+						<span class="glyphicon glyphicon-menu-hamburger"></span>
+					</button>
+				</div>
+				<div class="collapse navbar-collapse" id="navbar">
+					<ul class="nav navbar-nav" >
+						<li class=""><a href="index.html">项目介绍</a></li>
+						<li class=""><a href="#">产品介绍</a></li>
+						<li class=""><a href="#">相关文档</a></li>
+						<li class=" dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+								拓展功能<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">单词本</a></li>
+								<li><a href="#">随身账本</a></li>
+							</ul>
+						</li>
+						<li class=""><a href="about.html">关于我们</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">登录</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="clearfix content">
+			<div class="col-sm-3 col-sm-offset-8 ">
+				<ul class="nav nav-tabs">
+					<li class="active"><a href="#login" class="btn " data-toggle="tab">登录</a></li>
+					<li class=""><a href="#register" class="btn " data-toggle="tab">注册</a></li>
+				</ul>
+				<div class="tab-content panel">
+					<!--登录-->
+					<div class="tab-pane active" id="login">
+						<form action="" class="form-horizontal">
+							<div class="form-group">
+								<label for="username">用户名：</label>
+								<div class="">
+									<input type="text" name="username" id="username" value="" placeholder="请输入用户名" class="form-control"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="password">密码：</label>
+								<div class="">
+									<input type="password" name="password" id="password" value="" placeholder="请输入密码" class="form-control"/>
+								</div>
+							</div>
+							<input type="submit" value="登录" class="btn btn-info btn-block"/>
+						</form>
+					</div>
+					<!--注册-->
+					<div class="tab-pane" id="register">
+						<form action="" method="post" class="form-horizontal">
+							<div class="form-group">
+								<label for="phone" class="control-label">手机号：</label>
+								<div class="">
+									<input type="text" name="phone" id="phone" value="" placeholder="请输入手机号" class="form-control"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="checknum" class="control-label">验证码：</label>
+								<div class="row">
+									<div class="col-xs-8">
+										<input type="text" name="checknum" id="checknum" value="" placeholder="请输入验证码" class="form-control"/>
+									</div>
+									<button class="btn btn-info col-xs-3">发送验证码</button>
+								</div>
+								
+							</div>
+							<div class="form-group">
+								<label for="passward" class="control-label">密码：</label>
+								<div class="">
+									<input type="passward" name="passward" id="passward" value="" placeholder="请输入密码" class="form-control"/>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="repassward" class="control-label">确认密码：</label>
+								<div class="">
+									<input type="passward" name="repassward" id="repassward" value="" placeholder="请确认密码" class="form-control"/>
+								</div>
+							</div>
+							<input type="submit" value="注册" class="btn btn-info btn-block"/>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="clearfix">
+			<div class="row col-sm-10 col-sm-offset-1">
+				<b>技术支持:</b><a href="https://github.com/buttle0825">github个人主页</a><a href="http://v3.bootcss.com">bootstrap中文网站</a>
+				<p>Special announcement: the site is set up by "buttle0825" and its team, and the final explanation is owned by the team.</p>
+				<p>特别声明：该网站由“buttle0825”及其团队搭建完成，最终解释权归该团队所有。</p>
+			</div>
+		</footer>
+		
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>

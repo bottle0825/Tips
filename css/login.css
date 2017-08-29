@@ -1,0 +1,23 @@
+
+@media only screen and (min-width: 768px) {
+	/*pc端设计*/
+	body{
+		background:url(../img/bg2.jpg)no-repeat;
+		background-size: 100%;
+	}
+	.content{
+		/*background: #fff;*/
+		background: rgba(255,255,255,0.5);
+		margin: 200px 0;
+		padding: 10px;
+	}
+	.content form{
+		padding: 20px;
+		background: #fff;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	/*手机端设计*/
+	
+}
