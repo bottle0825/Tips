@@ -1,0 +1,59 @@
+
+@media only screen and (min-width: 768px) {
+	/*pc端设计*/
+	.main{
+		padding: 100px;
+		margin: 0;
+	}
+	.text{
+		width: 500px;
+		float: left;
+		color: #fff;
+		margin:100px 0;
+	}
+	.text h3{
+		font-size: 30px;
+	}
+	.text p{
+		font-size: 20px;
+	}
+	.show2{
+		float: left;
+		position: relative;
+		width:100%;
+		margin: 0 auto;
+		padding: 100px 0;
+		overflow: hidden;
+		background-color: #fff;
+	}
+	figure{
+		float: left;
+		margin: 100px;
+		width: 200px;
+	}
+	figure img{
+		width: 200px;
+		height: 200px;
+		cursor: pointer;
+	}
+	figcaption{
+		color: #fff;
+		text-align: center;
+	}
+	.show2 .text{
+		color: #333;
+	}
+	#erweima img,#erweima h3{
+		display: block;
+		width: 300px;
+		margin: 0 calc(50% - 150px);
+		text-align: center;
+	}
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	/*手机端设计*/
+	
+}
