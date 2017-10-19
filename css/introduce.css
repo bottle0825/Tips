@@ -8,11 +8,13 @@
 	#myCarousel{
 		width: 60%;
 		float: left;
+		margin:50px 0 0 4%;
 	}
 	.text{
 		width: 30%;
 		float: right;
 		color: #fff;
+		margin:50px 4% 0 2%;
 	}
 	.text h3{
 		font-size: 30px;
@@ -25,7 +27,7 @@
 		position: relative;
 		width:100%;
 		margin: 300px auto 0;
-		padding: 100px 15px;
+		padding: 100px 50px;
 		overflow: hidden;
 		background-color: #fff;
 	}
